@@ -1,0 +1,8 @@
+
+POST http://localhost:8080/api/analysis/skills
+Content-Type: application/json
+
+{
+  "studentSkills": ["Java", "SQL", "HTML"],
+  "requiredSkills": ["Java", "SQL", "Spring Boot", "React"]
+}
